@@ -1,0 +1,13 @@
+Model,Feature,Accuracy,Precision,Recall,F1-Score
+Naive Bayes,Bag of Words,0.9459,0.9604,0.9123,0.9357
+SVM (LinearSVC),Bag of Words,0.8994,0.9026,0.8596,0.8806
+Logistic Regression,Bag of Words,0.9221,0.9479,0.8672,0.9058
+Random Forest,Bag of Words,0.9102,0.9593,0.8271,0.8883
+Naive Bayes,TF-IDF,0.9437,0.9943,0.8747,0.9307
+SVM (LinearSVC),TF-IDF,0.9372,0.9697,0.8822,0.9239
+Logistic Regression,TF-IDF,0.9297,0.9855,0.8496,0.9125
+Random Forest,TF-IDF,0.9177,0.9575,0.8471,0.8989
+Naive Bayes,Bigram TF-IDF,0.9405,0.9943,0.8672,0.9264
+SVM (LinearSVC),Bigram TF-IDF,0.9383,0.975,0.8797,0.9249
+Logistic Regression,Bigram TF-IDF,0.9307,0.9912,0.8471,0.9135
+Random Forest,Bigram TF-IDF,0.921,0.9657,0.8471,0.9025
